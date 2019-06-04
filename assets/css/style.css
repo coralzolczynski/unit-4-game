@@ -3,5 +3,27 @@
 }
 
 .header {
-    
+    background-color: lavender;
+    padding: 20px;
+}
+
+.gems {
+    margin-bottom: 20px;
+}
+
+#blue {
+    height: 100px;
+    width: 100px;
+}
+#green  {
+    height: 100px;
+    width: 100px;
+}
+#red  {
+    height: 100px;
+    width: 100px;
+}
+#yellow  {
+    height: 100px;
+    width: 100px;
 }

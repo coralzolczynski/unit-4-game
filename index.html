@@ -6,33 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
     <div class="background">
-        <h1 class="header">Crystal Collector</h1>
+        <h1 class="header col-lg-3">Crystal Collector</h1>
         <div class="instrusctions">
-            <h3>How to Play</h3>
-            <p>Instructions to be added later</p>
+            <h5>How to Play</h5>
+            <p>You will be given a random number at the start of a game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win by matching your total score to to random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it. </p>
+            <p>Each time the game starts, the game will change the value of each crystal.</p>
         </div>
         
         <div class="row">
-            <div class="numberToMatch">
-                <h3>Number to Get:
+            <div class="numberToMatch col-lg-2">
+                <h5>Number to Get:
                     <span id="randomNumber"></span>
-                </h3>
+                </h5>
             </div>
+            <div class= "col-lg-2"></div>
             <div class="winsAndLosses">
-                <h3> Wins:
+                <h5> Wins:
                     <span id="numberWins"></span>
                     <br>
                  Losses:
                     <span id="numberLosses"></span>
-                </h3>
+                </h5>
 
             </div>
         </div>
+        <br>
 
         <div class="gems">
             <img src="./assets/images/blue.png" id=blue>
@@ -42,12 +49,14 @@
         </div>
 
         <div class="userTotal">
-            <h3>Your total score is:
+            <h5>Your total score is:
                 <span id="finalTotal"></span>
-            </h3>
+            </h5>
         </div>
 
-
+        <br>
+        <br>
+        <br>
 
 
     </div>
